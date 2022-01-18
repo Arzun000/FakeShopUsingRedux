@@ -1,0 +1,61 @@
+.card{
+    
+    width: 250px;
+    height: max-content;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    /*border: 1px solid;
+    border-radius: 25px;*/
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+.four.column.wide{
+    border: 1px solid;
+    border-radius: 25px;
+    height: 450px;
+    width:max-content;
+    border-color:#807f7c;
+}
+.ui.grid.container{
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    /*grid-template-columns: 1fr 1fr; /* set column sizes here */
+    /*grid-template-rows:auto auto auto auto; /* we want two rows */
+
+    /*grid-gap: 10px; /* how far between cells? */
+    grid-auto-flow: row; /* fill in by row, not column */
+
+    /* temporary property for visualization */
+    height: 150px;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card.img{
+    height: 250px;
+    width: 250px;
+}
+.ui.link.card{
+    border:0;
+}
+.content{
+    width: 280px;
+    border-top:1px solid;
+    border-top-color: rgb(247, 235, 235);
+}
+
